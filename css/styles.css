@@ -314,6 +314,7 @@
    #plane {
    animation: fly 8s infinite;
    top:100%;
+   transform: scale(.8);
    }
 
   @keyframes fly {
