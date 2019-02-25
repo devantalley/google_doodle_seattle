@@ -63,8 +63,34 @@
   }
 
   /* Airpalne */
+  #across {
+   
+  }
   .airplane {
-    position: absolute;
-    bottom:100px;
-    left:435px;
+    position: relative;
+
+  }
+  #plane {
+  left:100%;
+  animation: fly 5s infinite;
+  }
+
+  @keyframes fly {
+    0%{
+      left:100%;
+      top:200px;
+    }
+    25% {
+    top:100px;
+    }
+    50% {
+    top:80px;
+    }
+    75%{
+    top:25px;
+    }
+    100%{
+      left:-100px;
+    top:102px
+    }
   }
