@@ -16,46 +16,55 @@
   position:relative;
   overflow:hidden;
 }
-/* skyline */
-.skyline {
-  position:absolute;
-  top:23px;
-  transform: scale(1.03);
-}
 
-/* building lights  */
-.lights {
-  position:absolute;
-  top:165px;
-  left:118.6px;
-  max-width:68.1%;
-}
+  /* skyline */
+  .skyline {
+    position:absolute;
+    top:23px;
+    transform: scale(1.03);
+  }
+  
+  /* building lights  */
+  .lights {
+    position:absolute;
+    top:162px;
+    left:118.3px;
+    max-width:68%;
+  }
+  
+  /* ferris wheel */
+  
+  
+  /* cruise ship */
+  .cruise {
+   position:absolute;
+   top:196px;
+   right:400px;
+   max-width:60%;
+  }
+  /* sail boats */
+  .sail {
+   position:absolute;
+    top:267px;
+    left:240px;
+    max-width:8%;
+  
+  }
+  .sail2 {
+   position:absolute; 
+    max-width:8%;
+    top:275px;
+    left:450px;
+  }
 
-/* ferris wheel */
+  /* Hover */
+  #boatshover:hover {
+    animation:slideOutRight 12s;
+  }
 
-
-/* cruise ship */
-.cruise {
- position:absolute;
- top:380px;
- max-width:50%;
-
-}
-/* sail boats */
-.sail {
- position:absolute;
-  top:240px;
-  left:240px;
-  max-width:8%;
-
-}
-.sail2 {
- position:absolute; 
-  max-width:8%;
-  top:250px;
-  left:450px;
- 
-}
-#boathover {
-  animation:slideOutRight 12s;
-}
+  /* Airpalne */
+  .airplane {
+    position: absolute;
+    bottom:100px;
+    left:435px;
+  }
