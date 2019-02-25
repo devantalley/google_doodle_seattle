@@ -10,3 +10,58 @@ body {
 }
 
 /* Your Awesome Scripts */
+
+/* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
+ */
+ 
+/* Doodle Stage */
+#stage, h1 {
+  outline:1px dotted black;
+}
+#stage {
+/*fixed sizes*/
+  height: 300px;
+  width: 600px;
+  position:relative;
+  overflow:hidden;
+}
+/* skyline */
+.skyline {
+  position:absolute;
+  top:23px;
+  transform: scale(1.03);
+}
+
+/* building lights  */
+.lights {
+  position:absolute;
+  top:165px;
+  left:118.6px;
+  max-width:68.1%;
+}
+
+/* ferris wheel */
+
+
+/* cruise ship */
+.cruise {
+ position:absolute;
+ top:380px;
+ max-width:50%;
+ animation:slideOutRight 5s infinite;
+}
+/* sail boats */
+.sail {
+ position:absolute;
+  top:240px;
+  left:240px;
+  max-width:8%;
+
+}
+.sail2 {
+ position:absolute; 
+  max-width:8%;
+  top:250px;
+  left:450px;
+  animation:slideOutRight 4s infinite;
+}
