@@ -298,7 +298,7 @@
 
   /* Hover */
   #boatshover {
-    animation:slideOutRight 12s;
+    animation:slideOutRight 12s infinite;
   }
 
   /* Airpalne */
