@@ -1,23 +1,14 @@
 /*
   DIAGNOSTIC STYLING
 */
-body {
-  background: gray;
-}
-
-* {
-  outline: 1px dotted black;
-}
 
 /* Your Awesome Scripts */
 
 /* External styling from: https://codepen.io/manikoth/pen/NNNBYe.css
  */
- 
+
 /* Doodle Stage */
-#stage, h1 {
-  outline:1px dotted black;
-}
+
 #stage {
 /*fixed sizes*/
   height: 300px;
@@ -48,7 +39,7 @@ body {
  position:absolute;
  top:380px;
  max-width:50%;
- animation:slideOutRight 5s infinite;
+
 }
 /* sail boats */
 .sail {
@@ -63,5 +54,8 @@ body {
   max-width:8%;
   top:250px;
   left:450px;
-  animation:slideOutRight 4s infinite;
+ 
+}
+#boathover {
+  animation:slideOutRight 12s;
 }
