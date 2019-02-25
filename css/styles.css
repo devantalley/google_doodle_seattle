@@ -34,8 +34,11 @@
   }
   
   /* ferris wheel */
+  /* colors: 077a9e, 004869, e33746, d9a658
+   */
+
   .ferris ,.wheel {
-    border: 6px solid #fff;
+    border: 6px solid #d9a658;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -59,7 +62,7 @@
     content: "";
     height: 50px;
     width: 50px;
-    background: #888;
+    background: #d9a658;
     position: absolute;
     border-radius: 50%;
     left: 50%;
@@ -73,20 +76,20 @@
     content: "";
     width: 16px;
     height: 16px;
-    background: #683C10;
+    background: #e33746;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-top: -12px;
     margin-left: -12px;
     border-radius: 50%;
-    border: 4px solid #F3AE34;
+    border: 4px solid #d9a658;
     z-index: 1;
   }
   
   .wheel span:nth-child(1):before {
     content: "";
-    border-bottom: 2px solid #BABCBA;
+    border-bottom: 2px solid #e33746;
     position: absolute;
     top: 0;
     left: 0;
@@ -97,7 +100,7 @@
   
   .wheel span:nth-child(1):after {
     content: "";
-    border-right: 2px solid #BABCBA;
+    border-right: 2px solid #e33746;
     position: absolute;
     top: 0;
     left: 0;
@@ -109,7 +112,7 @@
   
   .wheel span:nth-child(2):before {
     content: "";
-    border-right: 2px solid #BABCBA;
+    border-right: 2px solid #e33746;
     position: absolute;
     top: 0;
     left: 0;
@@ -121,7 +124,7 @@
   
   .wheel span:nth-child(2):after {
     content: "";
-    border-right: 2px solid #BABCBA;
+    border-right: 2px solid #e33746;
     position: absolute;
     top: 0;
     left: 0;
@@ -134,7 +137,7 @@
   div.stand:after {
     content: "";
     position: absolute;
-    border-right: 4px solid #F3AE34;
+    border-right: 4px solid #d9a658;
     height: 120px;
     transform: rotate(15deg);
     top: 88px;
@@ -150,7 +153,7 @@
   .stand span {
     position: absolute;
     height: 10px;
-    background: #683C10;
+    background: #e33746;
     width: 100px;
     bottom: -60px;
     left: 50%;
@@ -171,7 +174,7 @@
   
   .buckets {
     position: absolute;
-    border: 6px solid #fff;
+    border: 6px solid #d9a658;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -191,7 +194,7 @@
     content: "";
     height: 13px;
     left: 9px;
-    border-right: 1px solid #888;
+    border-right: 1px solid #d9a658;
     position: absolute;
     top: -12px;
     transform: rotate(30deg);
@@ -200,7 +203,7 @@
   .buckets div:after {
     content: "";
     height: 13px;
-    border-right: 1px solid #888;
+    border-right: 1px solid #d9a658;
     position: absolute;
     right: 10px;
     transform: rotate(-30deg);
@@ -209,7 +212,7 @@
   
   .buckets span {
     display: inline-block;
-    border-top: 15px solid #A84172;
+    border-top: 15px solid #e33746;
     border-left: 3px solid transparent;
     border-right: 3px solid transparent;
     height: 0;
@@ -224,7 +227,7 @@
     height: 3px;
     width: 25px;
     left: -2px;
-    background: #652382;
+    background: #077a9e;
   }
   
   .buckets span:after {
@@ -302,34 +305,33 @@
   }
 
   /* Airpalne */
-  #fly {
-   
-  }
-  .airplane {
-    position: relative;
+ 
+   .airplane {
+     position: absolute;
 
-  }
-  #plane {
-  left:100%;
-  animation: fly 5s infinite;
-  }
+ 
+   }
+   #plane {
+   animation: fly 8s infinite;
+   top:100%;
+   }
 
   @keyframes fly {
     0%{
       left:100%;
-      top:200px;
+      top:-200px;
     }
     25% {
-    top:100px;
+    top:-150px;
     }
     50% {
-    top:80px;
+    top:-100px;
     }
     75%{
-    top:25px;
+    top:-100px;
     }
     100%{
-      left:-100px;
-    top:102px
+    left:-350px;
+    top:-100px
     }
   }
